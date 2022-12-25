@@ -1,5 +1,5 @@
-# arnavthareja.github.io
+# etthealien.github.io
 My personal website  
 
 See it here:
-https://arnavthareja.github.io
+https://etthealien.github.io
