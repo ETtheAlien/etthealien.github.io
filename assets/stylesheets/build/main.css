@@ -49,7 +49,7 @@
   --width-3: 0;
   --theme-text-color: white;
   scrollbar-width: thin;
-  scrollbar-color: byzantium;
+  scrollbar-color: #702963;
   scrollbar-face-color: #444444;
   scrollbar-track-color: black;
 }
@@ -79,7 +79,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: Lato, Helvetica, Verdana, Tahoma, sans-serif;
+  font-family: Garamond, Helvetica, Verdana, Tahoma, sans-serif;
   letter-spacing: 0.03em;
   line-height: 1.2em;
 }
