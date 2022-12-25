@@ -51,6 +51,7 @@
   scrollbar-width: thin;
   scrollbar-color: #380427;
   scrollbar-face-color: #380427;
+  scrollbar-shadow-color: #2b031e;
   scrollbar-track-color: #14010e;
 }
 :root::-webkit-scrollbar {
@@ -74,7 +75,7 @@
   background-clip: padding-box;
 }
 :root::-webkit-scrollbar-track {
-  background: #380427;
+  background: #14010e;
 }
 
 * {
