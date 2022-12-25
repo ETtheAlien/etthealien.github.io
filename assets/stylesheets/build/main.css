@@ -58,23 +58,23 @@
   height: 100%;
 }
 :root::-webkit-scrollbar-thumb {
-  background: #444444;
+  background: #380427;
   border: 0.3636363636em solid rgba(0, 0, 0, 0);
   background-clip: padding-box;
   border-radius: 0.6em;
 }
 :root::-webkit-scrollbar-thumb:hover {
-  background: #3a3a3a;
+  background: #730950;
   border: 0.3636363636em solid rgba(0, 0, 0, 0);
   background-clip: padding-box;
 }
 :root::-webkit-scrollbar-thumb:active {
-  background: #303030;
+  background: #910a64;
   border: 0.3636363636em solid rgba(0, 0, 0, 0);
   background-clip: padding-box;
 }
 :root::-webkit-scrollbar-track {
-  background: black;
+  background: #380427;
 }
 
 * {
