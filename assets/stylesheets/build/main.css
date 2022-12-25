@@ -31,10 +31,10 @@
   }
 }
 :root {
-  --main-background-color: byzantium;
-  --main-background-color-dark: tyrian purple;
+  --main-background-color: #702963;
+  --main-background-color-dark: #630330;
   --main-text-color-rgb: 255, 255, 255;
-  --main-background-gradient: byzantium;
+  --main-background-gradient: #702963;
   --alt-background-color: #1d2020;
   --alt-text-color-rgb: 255, 255, 255;
   --main-text-color: rgb(var(--main-text-color-rgb));
