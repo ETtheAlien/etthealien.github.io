@@ -153,7 +153,7 @@ body {
 
 .profile-picture {
   border-radius: 50%;
-  border: 1.5px solid var(--main-text-color);
+  border: 3px solid var(--main-text-color);
 }
 
 .profile-picture-container {
