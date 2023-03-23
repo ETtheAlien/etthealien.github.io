@@ -158,7 +158,8 @@ body {
 
 .profile-picture-container {
   flex: 4 4 40%;
-  height: auto;
+  height: 100px;
+  width: 100px;
   padding: 4%;
   margin: 0;
 }
