@@ -161,7 +161,7 @@ body {
   width: 50px;
   padding: 4%;
   margin: 0;
-  transform: rotate(-45deg) scale(1.42);
+  transform: rotate(-45deg) scale(1);
 }
 .profile-picture-container .profile-picture {
   width: 70%;
