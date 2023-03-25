@@ -1,6 +1,6 @@
 @keyframes picture-fly-in {
   from {
-    transform: translateY(90vh) rotate(-45deg); opacity: .50;
+    transform: translateY(90vh) rotate(-25deg); opacity: .50;
     transform: translateX(180vh);
   }
   to {
@@ -10,7 +10,7 @@
 }
 @keyframes profile-fly-in {
   from {
-    transform: translateX(60vw) rotate(-45deg); opacity: .50;
+    transform: translateX(60vw) rotate(-25deg); opacity: .50;
   }
   to {
     transform: translateX(0); opacity: 1;
@@ -18,7 +18,7 @@
 }
 @keyframes arrow-fly-in {
   from {
-    transform: translateY(20vh) rotate(-45deg);
+    transform: translateY(20vh);
   }
   to {
     transform: translateY(0);
