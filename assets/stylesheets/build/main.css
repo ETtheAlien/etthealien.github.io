@@ -1,17 +1,17 @@
 @keyframes picture-fly-in {
   from {
-    transform: translateY(90vh);
+    transform: translateY(90vh) rotate(-45deg); opacity: .50;
   }
   to {
-    transform: translateY(0);
+    transform: translateY(0); opacity: 1;
   }
 }
 @keyframes profile-fly-in {
   from {
-    transform: translateX(60vw);
+    transform: translateX(60vw); opacity: .50;
   }
   to {
-    transform: translateX(0);
+    transform: translateX(0); opacity: 1;
   }
 }
 @keyframes arrow-fly-in {
