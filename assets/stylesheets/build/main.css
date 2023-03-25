@@ -273,7 +273,7 @@ i {
 .name-container a {
   width: auto;
   height: auto;
-  margin-right: 5vw;
+  margin-right: 4vw;
   text-decoration: none;
 }
 .name-container a p {
@@ -282,7 +282,7 @@ i {
   width: auto;
   margin: 0;
   display: inline-block;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 @media only screen and (max-width: 1150px) {
   .name-container {
