@@ -169,6 +169,7 @@ body {
   width: 70%;
   height: auto;
   margin-left: 20%;
+  margin-top: 20%;
   animation: picture-fly-in var(--fly-in-duration) var(--fly-in-timing-function);
 }
 
