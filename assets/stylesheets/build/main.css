@@ -152,8 +152,8 @@ body {
 }
 
 .profile-picture {
-  border-radius: 50%;
   border: 3px solid var(--main-text-color);
+  transform: rotate(-45deg) scale(1.42);
 }
 
 .profile-picture-container {
