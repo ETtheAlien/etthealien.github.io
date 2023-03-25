@@ -153,7 +153,6 @@ body {
 
 .profile-picture {
   border: 3px solid var(--main-text-color);
-  transform: rotate(-45deg) scale(1.42);
 }
 
 .profile-picture-container {
@@ -162,6 +161,7 @@ body {
   width: 100px;
   padding: 4%;
   margin: 0;
+  transform: rotate(-45deg) scale(1.42);
 }
 .profile-picture-container .profile-picture {
   width: 70%;
