@@ -383,7 +383,7 @@ i {
   height: 100%;
   color: var(--main-text-color);
   letter-spacing: 0.15rem;
-  text-transform: uppercase;
+  text-transform: lowercase;
   line-height: 1.8em;
   font-weight: 200;
 }
