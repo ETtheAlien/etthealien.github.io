@@ -104,7 +104,6 @@ body {
 
 .title-xs {
   font-size: calc(1.3rem * var(--width-ratio));
-  text-transform: lowercase;
 }
 
 .title-small {
