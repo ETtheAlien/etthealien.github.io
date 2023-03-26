@@ -1,12 +1,14 @@
 @keyframes picture-fly-in {
-  from {
-    transform: translateY(90vh) rotate(-25deg); opacity: .50;
-    transform: translateX(180vh);
+   from {
+    /* transform: translateY(90vh) rotate(-25deg); opacity: .50;
+    transform: translateX(180vh); */
+    transform: rotate(500deg)
   }
   to {
-    transform: translateY(0); opacity: 1;
-    transform: translateX(0);
-  }
+    /* transform: translateY(0); opacity: 1;
+    transform: translateX(0); */
+    transform: rotate(0deg)
+  } 
 }
 @keyframes profile-fly-in {
   from {
