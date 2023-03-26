@@ -169,7 +169,7 @@ body {
   width: 70%;
   height: auto;
   margin-left: 20%;
-  margin-top: 20%;
+  margin-top: 30%;
   animation: picture-fly-in var(--fly-in-duration) var(--fly-in-timing-function);
 }
 
@@ -197,7 +197,6 @@ body {
   color: var(--main-text-color);
   height: 3.5em;
   width: 3.5em;
-  border-radius: 50%;
   border: 1px solid var(--main-text-color);
 }
 .icons a .icon:hover {
