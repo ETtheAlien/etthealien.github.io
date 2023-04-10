@@ -35,10 +35,10 @@
                     <a target="_blank" href="mailto:etashathareja23@gmail.com" class='center'><div class='icon center'><i class="fas fa-envelope fa-2x"></i></div></a>
                 </div>
             </div>
-            <div class='down-arrow center'>
+      <!--      <div class='down-arrow center'>
                 <a href='#experience' onclick='select("Experience")'>
                     <div class='arrow'></div>
-                </a>
+               </a>  --> 
             </div>
         </div>
 
@@ -62,14 +62,23 @@
                         <p class='text-small'>a</p>
                     </a>
                 </div>
+                <nav>
+                    <ul> 
+                        <li><strong>Home</strong></li>
+                        <li><button type="button" id='Experience' class='menu selected' onclick='select("Experience")'><a href='experience.html'><h2 class='title-xs'>Experience</h2></a></button></li>
+                        <li><button type="button" id='Artwork' class='menu selected' onclick='select("Artwork")'><a href='artwork.html'><h2 class='title-xs'>Artwork</h2></a></button></li>
+                        <li><button type="button" id='Piano' class='menu selected' onclick='select("Piano")'><a href='piano.html'><h2 class='title-xs'>Piano</h2></a></button></li>
+                    </ul>
+                </nav>
+                <!-- 
                 <button type="button" id='Experience' class='menu selected' onclick='select("Experience")'><a href='#experience'><h2 class='title-xs'>Experience</h2></a></button>
-               <!-- <button type="button" id='Projects' class='menu' onclick='select("Projects")'><a href='#projects'><h2 class='title-xs'>Projects</h2></a></button>
+                <button type="button" id='Projects' class='menu' onclick='select("Projects")'><a href='#projects'><h2 class='title-xs'>Projects</h2></a></button>
                 <button type="button" id='Coursework' class='menu' onclick='select("Coursework")'><a href='#coursework'><h2 class='title-xs'>Coursework</h2></a></button>
                 <button type="button" id='Resume' class='menu' onclick='select("Resume")'><a href='#resume'><h2 class='title-xs'>Resume</h2></a></button>
-               -->
+                -->
             </div>
         </div>
-
+<!--
         <div class='portfolio flex-vertical'>
             <div id='experience'>
                 <div class='title-container center'>
@@ -133,7 +142,7 @@
                     </div>
                 </div>
             </div>
-<!--
+
             <div id='projects'>
                 <div class='title-container center'>
                     <h2 class='title-medium portfolio-title'>Projects</h2>
