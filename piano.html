@@ -16,36 +16,31 @@
         <link href="https://fonts.googleapis.com/css2?family=Garamond" rel="stylesheet">
 
         <!-- Import AOS Library for card transitions -->
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+       <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
         
         <!-- favicon! -->
-        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
 
     </head>
     <body>
-        <div class='profile'>
+        <div class='page-header'>
             <div class='profile-picture-container center'>
                 <img src='assets/images/me_3.0.jpg' class='profile-picture disable-select disable-drag' alt='Profile Picture' oncontextmenu="return false">
             </div>
             <div class='profile-description'>
-                <h1 class='title-large'>Etasha Thareja</h1>
-                <p class='text-medium'>Hi! I am a student at Hazen High School and an intern at Fred Hutch. I aspire to go into Computational Biology.</p>
-                <div class="icons">
-                    <a target="_blank" href="https://github.com/etthealien/" class='center'><div class='icon center'><i class="fab fa-github fa-2x"></i></div></a>
-                    <a target="_blank" href="mailto:etashathareja23@gmail.com" class='center'><div class='icon center'><i class="fas fa-envelope fa-2x"></i></div></a>
-                </div>
+                <h1 class='title-large'>Piano</h1>
             </div>
-      <!--      <div class='down-arrow center'>
+             <div class='down-arrow center'>
                 <a href='#experience' onclick='select("Experience")'>
                     <div class='arrow'></div>
-               </a>  --> 
+               
             </div>
         </div>
 
         <div class='portfolio-menu flex-vertical' data-aos='fade-down' data-aos-anchor='#experience' data-aos-anchor-placement='top-top' data-aos-offset='-60'>
             <div class='menu-buttons flex-horizontal'>
                 <div class='name-container'>
-                    <a href='#'>
+                    <a href='etashathareja.github.io'>
                         <p class='text-small'>E</p>
                         <p class='text-small'>t</p>
                         <p class='text-small'>a</p>
@@ -62,11 +57,67 @@
                         <p class='text-small'>a</p>
                     </a>
                 </div>
-                        <button type="button" id='Experience' class='menu selected' onclick='select("Experience")'><a href='experience.html'><h2 class='title-xs'>Experience</h2></a></button>
-                        <button type="button" id='Artwork' class='menu selected' onclick='select("Artwork")'><a href='artwork.html'><h2 class='title-xs'>Artwork</h2></a></button>
-                        <button type="button" id='Piano' class='menu selected' onclick='select("Piano")'><a href='piano.html'><h2 class='title-xs'>Piano</h2></a></button> 
-                        <button type="button" id='Extracurriculars' class='menu selected' onclick='select("Extracurriculars")'><a href='extracurriculars.html'><h2 class='title-xs'>Extracurriculars</h2></a></button> 
-                        <button type="button" id='Volunteering' class='menu selected' onclick='select("Volunteering")'><a href='volunteering.html'><h2 class='title-xs'>Volunteering</h2></a></button> 
+                        <button type="button" id='Experience-Page' class='menu' onclick='select("Experience")'><a href='experience.html'><h2 class='title-xs'>Experience</h2></a></button>
+                        <button type="button" id='Extracurriculars-Page' class='menu' onclick='select("Extracurriculars")'><a href='extracurriculars.html'><h2 class='title-xs'>Extracurriculars</h2></a></button> 
+                        <button type="button" id='Artwork-Page' class='menu' onclick='select("Artwork")'><a href='artwork.html'><h2 class='title-xs'>Artwork</h2></a></button>
+                        <button type="button" id='Piano-Page' class='menu selected' onclick='select("Piano")'><a href='piano.html'><h2 class='title-xs'>Piano</h2></a></button> 
+                        <button type="button" id='Volunteering-Page' class='menu' onclick='select("Volunteering")'><a href='volunteering.html'><h2 class='title-xs'>Volunteering</h2></a></button>
             </div>
         </div>
 
+
+  
+   <div class='portfolio flex-vertical'>
+            <div id='experience'>
+                <div class='title-container center'>
+                    <h2 class='title-medium portfolio-title'>Piano</h2>
+                </div>
+                <div class='section-container flex-vertical'>
+                    <div class='experience card flex-horizontal'>
+                        <div class='experience content flex-vertical'>
+                            <div class='piano-paragraph'>
+                                <p class='piano-paragraph'>I've been playing piano for over 10 years. I started my career as a kid, 
+                                                        and as I expanded my skills, 
+                                                        I competed in competitions and regularly took exams. After winning 
+                                                        second place in Crescendo International Music Competition in 2020, I got the 
+                                                        chance to perform at Carnegie Hall in New York City in 2022. 
+                                                        Later that year, I participated in the competition again, winning 
+                                                        first place. I got the opportunity to perform at Carnegie Hall for the second 
+                                                        time in 2023.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class='pre-piano-break'>
+                </div>
+                <div class='piano-video-holder'>
+                    <div class='piano-left'>
+                        <div class='piano videos'>
+                            <iframe width="500" height="281.25" src="https://www.youtube.com/embed/Ka30cAuFsQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class='piano videos'>
+                            <iframe width="500" height="281.25" src="https://www.youtube.com/embed/O1FAqakNgbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                        
+                        </div>
+                        <div class='piano videos'>
+                            <iframe width="500" height="281.25" src="https://www.youtube.com/embed/iEJcuk_9YEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class='piano-break'>
+                    </div>
+                    <div class='piano-right'>
+                        <div class='piano videos'>
+                            <iframe width="500" height="281.25" src="https://www.youtube.com/embed/U9BPYODwZ-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class='piano videos'>
+                            <iframe width="500" height="281.25" src="https://www.youtube.com/embed/Qk03vxARpkw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                        
+                        </div>
+                        <div class='piano videos'>
+                            <iframe width="500" height="281.25" src="https://www.youtube.com/embed/T4gQ2qtK_Hg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                
+
+                
+               

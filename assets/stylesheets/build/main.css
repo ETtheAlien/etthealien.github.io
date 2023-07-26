@@ -401,6 +401,76 @@ i {
   font-weight: 200;
 }
 
+.piano-paragraph {
+  display: inline-block;
+  text-align: left;
+  margin: 0.2em 1.22%;
+  width: 100%;
+  height: 100%;
+  color: var(--main-text-color);
+  line-height: 2em;
+  font-weight: 250;
+  font-size: 110%;
+}
+
+.pre-piano-break {
+  display: inline-block;
+  width: 11.7%;
+  height: 100%;
+  right: 0px;
+  /* background-color:purple; */
+
+}
+
+.piano.videos {
+  display: inline-block;
+  text-align: left;
+  margin: 0.2em 1.5%;
+  width: 100%;
+  height: 100%;
+  color: var(--main-text-color);
+  line-height: 2em;
+  font-weight: 250;
+}
+
+.piano-left {
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  left: 0%; 
+  /* background-color:pink; */
+
+}
+
+.piano-break {
+  display: inline-block;
+  width: 11.7%;
+  height: 100%;
+  right: 0px;
+  /* background-color:purple; */
+
+}
+
+.piano-right {
+  display: inline-block;
+  width: 40%;
+  height: 100%;
+  right: 0px;
+  /* background-color:yellow; */
+
+}
+
+.piano-video-holder {
+  display: inline-block;
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+  color: var(--main-text-color);
+  line-height: 2em;
+  font-weight: 250;
+  /* background-color:blue; */
+}
+
 .section-container {
   width: 100%;
   height: auto;
